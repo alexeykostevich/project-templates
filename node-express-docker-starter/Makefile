@@ -1,11 +1,5 @@
 up:
-	docker-compose up
+	docker-compose --file docker-compose.local.yml up
 
 down:
-	docker-compose down
-
-up-debug:
-	docker-compose --file docker-compose.debug.yml up --build
-
-down-debug:
-	docker-compose --file docker-compose.debug.yml down
+	docker-compose --file docker-compose.local.yml down

@@ -8,7 +8,7 @@
       "address": "localhost",
       "port": 9229,
       "sourceMapPathOverrides": {
-        "/app/*": "${workspaceRoot}/*"
+        "/home/node/app/*": "${workspaceRoot}/*"
       }
     }
   ]

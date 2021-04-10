@@ -56,10 +56,10 @@ docker-compose down
 npm ci
 
 # Builds, (re)creates, starts, and attaches to containers for a service.
-docker-compose --file docker-compose.debug.yml up --build
+docker-compose --file docker-compose.local.yml up
 
 # Stops containers and removes containers, networks, volumes, and images.
-docker-compose --file docker-compose.debug.yml down
+docker-compose --file docker-compose.local.yml down
 ```
 
 Open http://localhost:49160/api/ping to check that the app is running and attach a debugger to ws://0.0.0.0:9229.

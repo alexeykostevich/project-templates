@@ -4,8 +4,9 @@ services:
   api:
     image: node:14-alpine
     volumes:
-      - .:/app
-    working_dir: /app
+      - .:/home/node/app
+    working_dir: /home/node/app
+    user: node
     command: npm run debug
     restart: unless-stopped
     networks:
