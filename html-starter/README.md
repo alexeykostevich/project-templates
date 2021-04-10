@@ -2,6 +2,10 @@
 
 A starter for a static web site.
 
+## Prerequisites
+
+- Install [Node.js](https://nodejs.org/)
+
 ## Quickstart
 
 ```sh
