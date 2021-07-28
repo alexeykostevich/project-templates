@@ -2,7 +2,8 @@
   "name": "node-express-starter",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "main": "src/index.ts",
   "engines": {
     "node": ">=14"

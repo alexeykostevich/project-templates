@@ -2,7 +2,8 @@
   "name": "html-starter",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "start": "live-server ./src",
     "format": "prettier --write ."
