@@ -12,6 +12,12 @@ A starter for a Node.js application.
 # Install the dependencies.
 npm ci
 
+# Start the app in the dev mode.
+npm start:dev
+
+# Build the app.
+npm build
+
 # Start the app.
 npm start
 ```

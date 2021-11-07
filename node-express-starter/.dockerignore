@@ -1,3 +1,4 @@
 # Prevent leaking secrets.
+.idea
 .vscode
-environment
+environments

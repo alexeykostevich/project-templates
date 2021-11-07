@@ -1,6 +1,6 @@
 import express from "express";
 import ping from "./ping";
 
-export const apiRouter = express.Router();
+export const app = express();
 
-apiRouter.use("/", [ping]);
+app.use("/api", [ping]);

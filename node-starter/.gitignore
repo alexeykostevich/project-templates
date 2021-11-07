@@ -11,3 +11,9 @@ node_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# IntelliJ IDEA
+.idea/
+
+# Build output
+dist/
