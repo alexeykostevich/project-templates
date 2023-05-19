@@ -23,13 +23,10 @@ A Node.js application in TypeScript.
 npm ci
 
 # Start the app in the dev mode.
-npm start:dev
+npm run start:dev
 
-# Build the app.
-npm build
-
-# Start the app.
-npm start
+# Run unit tests.
+npm run test
 ```
 
 > **TIP**: The project is already set up for debugging in VS Code.
