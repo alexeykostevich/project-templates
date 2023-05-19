@@ -5,7 +5,7 @@ A Node.js application in TypeScript.
 ## Technology Stack
 
 |                   | Technology                                      |
-|-------------------|-------------------------------------------------|
+| ----------------- | ----------------------------------------------- |
 | Language          | [TypeScript 5](https://www.typescriptlang.org/) |
 | Testing Framework | [Jest](https://jasmine.github.io/)              |
 | Code Formatter    | [Prettier](https://prettier.io/)                |
