@@ -1,0 +1,15 @@
+{
+  "name": "html-css-javascript-site",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "live-server ./src",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "prettier": "^2.8.0"
+  }
+}
