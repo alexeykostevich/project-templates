@@ -10,7 +10,7 @@ node_modules/
 .npm
 
 # IntelliJ IDEA
-.idea/
+/.idea
 
 # OS X
 .DS_Store

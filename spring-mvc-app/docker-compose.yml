@@ -1,0 +1,14 @@
+name: spring-mvc-app
+
+services:
+  # https://hub.docker.com/_/tomcat/
+  tomcat:
+    image: tomcat:10-jdk21-temurin-jammy
+    container_name: tomcat
+    ports:
+      - "8080:8080"
+      - "5005:5005"
+    environment:
+      JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
+    volumes:
+      - ./target/spring-mvc-app-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/spring-mvc-app-1.0-SNAPSHOT.war
